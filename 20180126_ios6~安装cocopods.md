@@ -8,10 +8,11 @@
 brew install ruby
 ```
 
-可以换个淘宝的源
+可以换个源
 ```
-gem sources --remove https://rubygems.org/
-gem sources -a http://ruby.taobao.org/
+gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+sudo gem update --system
+gem sources -l
 ```
 
 安装cocopods
