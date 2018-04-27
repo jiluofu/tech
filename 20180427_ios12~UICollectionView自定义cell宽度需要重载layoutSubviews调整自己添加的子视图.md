@@ -1,4 +1,4 @@
-**2018.04.18**
+**2018.04.27**
 
 ## UICollectionView用sizeForItemAtIndexPath动态设定cell宽度，reloadData后有些cell的子视图宽度有问题
 
