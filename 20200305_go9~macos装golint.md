@@ -13,4 +13,15 @@ go install golang.org/x/lint/golint/
 $GOPATH/bin/golint
 
 
+gosublime配置
+
+"comp_lint_enabled": true,
+
+"comp_lint_commands": [
+		{"cmd": ["golint *.go"], "shell": true},
+	],
+
+"on_save": [ {"cmd": "gs_comp_lint"}],
+
+
 ```
