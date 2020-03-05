@@ -1,0 +1,16 @@
+**2020.03.05**
+
+## 安装golint，给sublime的gosublime使用
+```
+
+cd $GOPATH
+mkdir -p src/golang.org/x
+cd src/goling.org/x
+git clone https://github.com/golang/tools.git tools
+
+cd $GOPATH
+go install golang.org/x/lint/golint/
+$GOPATH/bin/golint
+
+
+```
